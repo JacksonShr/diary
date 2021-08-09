@@ -1,0 +1,49 @@
+form {
+
+width: 99%;
+margin: 0%;
+padding: 0%;
+clear: both;
+
+}
+
+form div.row {
+
+width: 99%;
+margin: 0%;
+padding: 0%;
+clear: both;
+
+}
+
+form div.row div.date {
+
+width: 10%;
+
+//padding-right: 90%;
+
+
+}
+
+form div.row div.time {
+	
+	width: 20%;
+	float: left;
+	
+}
+
+form div.row div.name {
+
+width: 80%;
+float: right;
+text-align: center;
+//padding-left: 10%;
+
+
+}
+
+form div.row textarea {
+	
+	width: 100%;
+	
+}

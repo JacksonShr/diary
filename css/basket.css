@@ -1,0 +1,116 @@
+
+#basket {
+width: 99%;
+}
+#basket .basket_string_container {
+width: 43%;
+height: auto;
+margin: 2% 3% 2% 3%;
+float: left;
+}
+#basket .basket_string_container .id {
+width: 19%;
+margin: 2% 5% 2% 5%;
+float: left;
+}
+#basket .basket_string_container .name_of_commodity {
+width: 59%;
+margin: 2% 5% 2% 5%;
+float: right;
+}
+#basket .basket_string_container .image_path {
+width: 29%;
+height: auto;
+margin: 2% 5% 2% 5%;
+clear: both;
+float: left;
+}
+#basket .basket_string_container .commodity_description {
+width: 49%;
+margin: 2% 5% 2% 5%;
+float: right;
+}
+#basket .basket_string_container .commodity_price {
+width: 26%;
+height: auto;
+margin: 2% 3% 2% 3%;
+clear: both;
+float: left;
+}
+#basket .basket_string_container .number {
+width: 27%;
+height: auto;
+margin: 2% 3% 2% 3%;
+float: left;
+}
+#basket .basket_string_container .sum {
+width: 27%;
+height: auto;
+margin: 2% 3% 2% 3%;
+float: right;
+}
+#basket .basket_string_container .final_sum0 {
+width: 29%;
+height: auto;
+margin: 2% 5% 2% 5%;
+clear: both;
+float: left;
+}
+#basket .basket_string_container .final_sum1 {
+width: 49%;
+margin: 2% 5% 2% 5%;
+float: right;
+}
+
+
+
+
+@media screen and (max-width: 1990px)  and (min-width: 1025px) {
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 480px) and (orientation: landscape) {
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 480px)  and (orientation: portrait) {
+#basket .basket_string_container {
+width: 80%;
+margin: 1% 9% 1% 9%;
+float: none;
+}
+#basket .basket_string_container .image_path {
+width: 19%;
+}
+#basket .basket_string_container .commodity_description {
+width: 59%;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+#basket .basket_string_container {
+width: 99%;
+margin: 1% 0.4% 1% 0.4%;
+}
+#basket .basket_string_container .image_path {
+width: 79%;
+height: auto;
+margin: 1% 9% 1% 9%;
+clear: both;
+float: none;
+}
+#basket .basket_string_container .commodity_description {
+width: 79%;
+margin: 2% 9% 2% 9%;
+float: none;
+}
+
+
+}

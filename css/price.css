@@ -1,0 +1,136 @@
+
+.price_container .list_container .output_string {
+width: 99%;
+}
+.category_header {
+width: 99%;
+font-size: 2.3em;
+text-align: center;
+text-decoration: underline;
+}
+.price_container .list_container .output_string .message_container {
+clear: both;
+margin: 3.7% 5% 3.7% 5%;
+}
+.price_container .list_container .output_string .message_container {
+
+}
+.price_container .list_container .output_string .message_container .id, .price_container .list_container .output_string .message_container .weight, .price_container .list_container .output_string .message_container .volume, .price_container .list_container .output_string .message_container .category {
+display: none;
+}
+.price_container .list_container .output_string .message_container .name_of_commodity {
+width: 99%;
+font-weight: bold;
+text-align: center;
+text-decoration: underline;
+font-size: 1.7em;
+}
+.price_container .list_container .output_string .message_container .commodity_description {
+width: 52%;
+height: 99%;
+margin: 3.7%;
+float: right;
+text-align: center;
+font-size: 1.3em;
+}
+.price_container .list_container .output_string .message_container .image_path {
+width: 31%;
+margin: 3.7%;
+height: auto; //99%;
+float: left;
+}
+.price_container .list_container .output_string .message_container .commodity_price {
+width: 65%;
+float: left;
+text-align: right;
+font-weight: bold;
+clear: right;
+}
+.price_container .list_container .output_string .message_container .commodity_remainder {
+width: 34%;
+float: right;
+text-align: center;
+font-weight: 370;
+}
+.price_container .list_container .output_string .message_container input[type="button"] {
+margin: 2% 2% 10% 70%;
+}
+.add_in_basket_button {
+width: 99%;
+clear: both;
+}
+
+@media screen and (max-width: 1990px)  and (min-width: 1025px) {
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 480px) and (orientation: landscape) {
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 480px)  and (orientation: portrait) {
+.price_container .list_container .output_string .message_container .name_of_commodity {
+width: 59%;
+float: right;
+text-align: center;
+font-weight: 700;
+}
+.price_container .list_container .output_string .message_container .commodity_description, .price_container .list_container .output_string .message_container .commodity_remainder {
+width: 59%;
+float: right;
+text-align: center;
+font-weight: 370;
+}
+.price_container .list_container .output_string .message_container .image_path {
+width: 39%;
+float: left;
+}
+.price_container .list_container .output_string .message_container .commodity_price {
+width: 99%;
+float: none;
+text-align: left;
+font-weight: bold;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+.price_container .list_container .output_string .message_container .name_of_commodity {
+width: 90%;
+margin: auto;
+float: none;
+text-align: center;
+font-weight: 700;
+}
+.price_container .list_container .output_string .message_container .commodity_description {
+width: 90%;
+margin: auto;
+float: none;
+text-align: left;
+font-weight: 370;
+}
+.price_container .list_container .output_string .message_container .image_path {
+width: 85%;
+margin: auto;
+float: none;
+}
+.price_container .list_container .output_string .message_container .commodity_price {
+width: 39%;
+float: left;
+text-align: left;
+font-weight: 450;
+}
+.price_container .list_container .output_string .message_container .commodity_price {
+width: 49%;
+float: right;
+text-align: right;
+font-weight: bold;
+}
+
+
+}

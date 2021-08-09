@@ -1,0 +1,109 @@
+
+.gb {
+width: 99%;
+}
+.gb div div.even {
+clear: both;
+width: 90%;
+margin: 1% 7% 1% 2%;
+}
+.gb div div.odd {
+clear: both;
+width: 90%;
+margin: 1% 2% 1% 7%;
+
+}
+.gb div div.even .author, .gb div div.odd .author {
+width: 19%;
+margin: 1.7%;
+border-radius: 5px;
+float: left;
+background-color: white;
+}
+.gb div div.even .text, .gb div div.odd .text {
+width: 50%;
+margin: 1.7%;
+border-radius: 5px;
+float: left;
+background-color: white;
+}
+.gb div div.even .date, .gb div div.odd .date {
+width: 19%;
+margin: 1.7%;
+border-radius: 5px;
+float: left;
+background-color: white;
+}
+
+
+
+@media screen and (max-width: 1990px)  and (min-width: 1025px) {
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 480px) and (orientation: landscape) {
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 480px)  and (orientation: portrait) {
+
+.gb {
+width: 99%;
+}
+.gb div div.even {
+
+}
+.gb div div.odd {
+
+}
+.gb div div.even .author, .gb div div.odd .author {
+width: 91%;
+margin: auto;
+float: none;
+}
+.gb div div.even .text, .gb div div.odd .text {
+width: 91%;
+margin: auto;
+float: none;
+}
+.gb div div.even .date, .gb div div.odd .date {
+width: 91%;
+margin: auto;
+float: none;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+.gb {
+width: 99%;
+}
+.gb div div.even {
+
+}
+.gb div div.odd {
+
+}
+.gb div div.even .author, .gb div div.odd .author {
+width: 87%;
+margin: auto;
+float: none;
+}
+.gb div div.even .text, .gb div div.odd .text {
+width: 93%;
+margin: auto;
+float: none;
+}
+.gb div div.even .date, .gb div div.odd .date {
+width: 87%;
+margin: auto;
+float: none;
+}
+
+
+}

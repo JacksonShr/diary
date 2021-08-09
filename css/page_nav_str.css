@@ -1,0 +1,123 @@
+.page_nav_container {
+width: 99%;
+margin: 0%;
+padding: 0%;
+font-size: 1.2em;
+clear: both;
+}
+.page_nav_container .label_and_select_container {
+width: 99%;
+height: auto;
+margin: 0%;
+padding: 0%;
+}
+.page_nav_container .label_and_select_container .label_container {
+width: 47%;
+margin: 3%;
+float: right;
+text-align: right;
+}
+.page_nav_container .label_and_select_container .select_container {
+width: 31%;
+margin: 3% 13% 3% 2%;
+float: right;
+}
+.page_nav_container #first_label_and_submit_container {
+clear: both;
+}
+.page_nav_container .label_and_submit_container {
+width: 23%;
+margin: 0.7%;
+padding: 0%;
+float: left;
+}
+.page_nav_container .label_and_submit_container .label_container {
+width: 99%;
+margin: 2% 0.4% 2% 0.4%;
+font-weight: bold;
+}
+.page_nav_container .label_and_submit_container .label_container label {
+text-align: center;
+}
+.page_nav_container .label_and_submit_container .submit_container {
+width: 99%;
+}
+.page_nav_container div.basket_button {
+clear: both;
+width: 99%;
+}
+
+
+
+@media screen and (max-width: 1990px)  and (min-width: 1025px) {
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 480px) and (orientation: landscape) {
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 480px)  and (orientation: portrait) {
+.page_nav_container {
+width: 99%;
+margin: 0%;
+padding: 0%;
+font-size: 1em;
+}
+.page_nav_container .label_and_select_container {
+width: 31%;
+float: left;
+}
+.page_nav_container .label_and_submit_container {
+width: 31%;
+float: left;
+}
+.page_nav_container .label_and_submit_container .label_container {
+width: 99%;
+font-weight: bold;
+}
+.page_nav_container .label_and_submit_container .label_container label {
+text-align: center;
+}
+.page_nav_container .label_and_submit_container .submit_container {
+width: 99%;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+.page_nav_container {
+width: 99%;
+margin: 0%;
+padding: 0%;
+font-size: 1em;
+}
+.page_nav_container .label_and_select_container {
+width: 47%;
+float: left;
+}
+.page_nav_container .label_and_submit_container {
+width: 47%;
+float: left;
+}
+.page_nav_container .label_and_submit_container#page_nav_str_add {
+display: none;
+}
+.page_nav_container .label_and_submit_container .label_container {
+width: 99%;
+font-weight: bold;
+}
+.page_nav_container .label_and_submit_container .label_container label {
+text-align: center;
+}
+.page_nav_container .label_and_submit_container .submit_container {
+width: 99%;
+}
+
+
+}

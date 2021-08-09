@@ -1,0 +1,85 @@
+
+
+#portfolio {
+width: 99%;
+height: auto;
+}
+#portfolio div {
+
+}
+#portfolio div .even {
+width: 40%;
+margin: 4%;
+float: left;
+}
+#portfolio div .odd {
+width: 40%;
+margin: 4%;
+float: right;
+}
+#portfolio div .even .path, #portfolio div .odd .path {
+width: 39%;
+float: left;
+}
+#portfolio div .even .description, #portfolio div .odd .description {
+width: 59%;
+float: right;
+}
+
+
+
+@media screen and (max-width: 1990px)  and (min-width: 1025px) {
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 480px) and (orientation: landscape) {
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 480px)  and (orientation: portrait) {
+#portfolio div  {
+clear: both;
+}
+#portfolio div .even {
+width: 81%;
+margin: 4%;
+float: none;
+clear: both;
+}
+#portfolio div .odd {
+width: 81%;
+margin: 4%;
+float: none;
+clear: both;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+#portfolio div .even {
+width: 81%;
+margin: 4%;
+float: none;
+}
+#portfolio div .odd {
+width: 81%;
+margin: 4%;
+float: none;
+}
+#portfolio div .even .path, #portfolio div .odd .path {
+width: 80%;
+margin: 4%;
+float: none;
+}
+#portfolio div .even .description, #portfolio div .odd .description {
+width: 80%;
+margin: 4%;
+float: none;
+}
+
+}
